@@ -1,0 +1,95 @@
+		body {
+			background-image: url("http://p1.pichost.me/i/60/1838508.jpg");
+			background-size: cover;
+			background-position: center;
+			font-family: Verdana;
+			color: white;
+			text-align: center;
+		}
+		header {
+			text-align: center;
+			background-image: url("http://hdiwallpapers.xyz/wp-content/uploads/2015/12/Orange-Yellow-Background-Wallpaper-Color-Wallpaper-Cool-Orange-Background-.jpg");
+			background-size: cover;
+			background-position: center;
+		}
+		/*top of page Gabrielle*/
+		header h1{
+			color: #ffd700;
+			font-size: 50px;
+			padding-top: 20px
+		}
+
+		/* navigation bar*/
+		header ul {
+		    padding: 10px;
+		    background: rgba(255, 250, 220, 0.8);
+	   		}
+		header ul li {
+			display: inline;
+			padding: 0px 40px 0px 20px;
+			font-size: 22px;
+			}
+		a {
+			text-decoration: none;
+			color: black;
+		}
+
+		/*body*/
+		h1 {
+			color: #ffd700;
+			}
+		ul {
+			list-style-position: inside;
+			padding-right: 35px;
+		}
+		ol {
+			list-style-position: inside;
+			padding-right: 35px;
+		}
+		/*table*/
+		table {
+			border: 2px solid white;
+			table-layout: fixed;
+			width: 100%;
+		}
+		th {
+			color: #ffd700;
+			font-size: 20px;
+		}
+		td, th {
+			border-left: 2px solid white;
+			padding: 5px;
+			border-bottom: 2px solid white;
+		}
+		.no-leftBorder {
+			border-left: none;
+		}
+		.no-bottomBorder {
+			border-bottom: none;
+		}
+		.autoResizeImage {
+		    max-width: 100%;
+		    height: auto;
+		    width: auto;
+		}
+		/*Follow me*/
+		input {
+	      border: 0;
+	      padding: 10px;
+	      font-size: 18px;
+	    }
+    	input[type="submit"] {
+	      background: #ffd700;
+	      color: black;
+	    }
+
+	   /*responsive page*/
+	    @media (max-width: 500px) {
+	      h1 {
+	        font-size: 36px;
+	      }
+	      header ul li {
+	        display: block;
+	        padding: 5px;
+	      }
+      	}
